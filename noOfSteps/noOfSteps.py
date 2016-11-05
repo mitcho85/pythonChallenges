@@ -6,7 +6,7 @@ def stairs(n):
     if n < 1:
         return 0
     return 1 + stairs(n-1) + stairs(n-2) + stairs (n-3)
-
+#hello
 climbedCount = {}
 
 def stairsDyn(n):
